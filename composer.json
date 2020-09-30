@@ -1,0 +1,35 @@
+{
+	"name": "professional-wiki/wikibase-bundle",
+	"type": "mediawiki-extension",
+	"description": "Bundle extension that installs and loads Wikibase and associated extensions",
+	"keywords": [
+		"MediaWiki",
+		"Wikibase",
+		"wiki",
+		"structured data",
+		"knowledge management"
+	],
+	"homepage": "https://github.com/ProfessionalWiki/WikibaseBundle",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "Jeroen De Dauw",
+			"email": "jeroendedauw@gmail.com",
+			"homepage": "https://www.EntropyWins.wtf/mediawiki"
+		},
+		{
+			"name": "Professional.Wiki",
+			"email": "info@professional.wiki",
+			"homepage": "https://Professional.Wiki"
+		}
+	],
+	"support": {
+		"source": "https://github.com/ProfessionalWiki/WikibaseBundle"
+	},
+	"require": {
+		"php": ">=7.1",
+		"composer/installers": "^1.0.1",
+
+		"professional-wiki/wikibase-local-media": "*"
+	}
+}
