@@ -67,5 +67,5 @@ jobs:
         run: composer require professional-wiki/wikibase-bundle:dev-master
 
       - name: Run PHPUnit
-        run: php tests/phpunit/phpunit.php EarlyCopy/tests/
+        run: php tests/phpunit/phpunit.php extensions/WikibaseBundle/tests/
 
