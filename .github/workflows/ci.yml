@@ -67,11 +67,6 @@ jobs:
         run: composer require professional-wiki/wikibase-bundle:dev-master
 
       - name: Run PHPUnit
-        run: |
-          pwd
-          ls -lap
-          ls -lap extensions
-          ls -lap extensions/WikibaseBundle
-          php tests/phpunit/phpunit.php extensions/WikibaseBundle/tests/
+        run: php tests/phpunit/phpunit.php extensions/WikibaseBundle/tests/
 
 
