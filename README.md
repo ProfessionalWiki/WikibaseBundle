@@ -16,6 +16,8 @@ TODO
 * **[Wikibase Client]** - Allows using Wikibase data in your wiki via parser functions and Lua
 * **[Wikibase Local Media]** - Adds support for local media files via a dedicated data type 
 
+* EntitySchema?
+
 ## Installation
 
 Wikibase Bundle is installed using [Composer](https://getcomposer.org) with
@@ -48,6 +50,12 @@ Run the [update.php script](https://www.mediawiki.org/wiki/Manual:Update.php)
 from the base directory of your MediaWiki installation: 
 
     php maintenance/update.php
+
+## Version history
+
+### Wikibase Bundle 1.0.0 (under development)
+
+* Initial release
 
 [Wikibase Repository]: https://www.mediawiki.org/wiki/Extension:Wikibase_Repository
 [Wikibase Client]: https://www.mediawiki.org/wiki/Extension:Wikibase_Client
