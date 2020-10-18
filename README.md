@@ -18,6 +18,10 @@ TODO
 
 * EntitySchema?
 
+* CLDR
+* ULS
+* https://www.mediawiki.org/wiki/Extension:PropertySuggester
+
 ## Installation
 
 Wikibase Bundle is installed using [Composer](https://getcomposer.org) with
