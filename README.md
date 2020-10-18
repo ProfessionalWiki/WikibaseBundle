@@ -21,6 +21,7 @@ TODO
 * CLDR
 * ULS
 * https://www.mediawiki.org/wiki/Extension:PropertySuggester
+* https://github.com/wikimedia/mediawiki-extensions-WikibaseQualityConstraints 
 
 ## Installation
 
