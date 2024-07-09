@@ -28,7 +28,7 @@
 	},
 	"require": {
 		"php": ">=7.3",
-		"composer/installers": "^1.0.1",
+		"composer/installers": "^2.3.0",
 
 		"wikibase/wikibase": "dev-REL1_35 | dev-REL1_34",
 		"professional-wiki/wikibase-local-media": "*"
